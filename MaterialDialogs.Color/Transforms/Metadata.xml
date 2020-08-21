@@ -1,0 +1,16 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <!--Namespace Normalization-->
+  <attr path="/api/package[@name='com.afollestad.materialdialogs.color']"
+    name="managedName">AFollestad.MaterialDialogs.Color</attr>
+  <attr path="/api/package[@name='com.afollestad.materialdialogs.color.utils']"
+name="managedName">AFollestad.MaterialDialogs.Color.Utils</attr>
+  <attr path="/api/package[@name='com.afollestad.materialdialogs.color.view']"
+name="managedName">AFollestad.MaterialDialogs.Color.View</attr>
+</metadata>

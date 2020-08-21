@@ -1,0 +1,50 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <!--Namespace Normalization-->
+
+  <attr path="/api/package[@name='com.afollestad.materialdialogs']"
+    name="managedName">AFollestad.MaterialDialogs</attr>
+      <attr path="/api/package[@name='com.afollestad.materialdialogs.actions']"
+    name="managedName">AFollestad.MaterialDialogs.Actions</attr>
+      <attr path="/api/package[@name='com.afollestad.materialdialogs.callbacks']"
+    name="managedName">AFollestad.MaterialDialogs.Callbacks</attr>
+      <attr path="/api/package[@name='com.afollestad.materialdialogs.checkbox']"
+    name="managedName">AFollestad.MaterialDialogs.Checkbox</attr>
+      <attr path="/api/package[@name='com.afollestad.materialdialogs.customview']"
+    name="managedName">AFollestad.MaterialDialogs.CustomView</attr>
+      <attr path="/api/package[@name='com.afollestad.materialdialogs']"
+    name="managedName">AFollestad.MaterialDialogs</attr>
+     <attr path="/api/package[@name='com.afollestad.materialdialogs.internal.button']"
+    name="managedName">AFollestad.MaterialDialogs.Internal.Button</attr>
+  <attr path="/api/package[@name='com.afollestad.materialdialogs.internal.list']"
+    name="managedName">AFollestad.MaterialDialogs.Internal.List</attr>
+     <attr path="/api/package[@name='com.afollestad.materialdialogs.internal.main']"
+    name="managedName">AFollestad.MaterialDialogs.Internal.Main</attr>
+     <attr path="/api/package[@name='com.afollestad.materialdialogs.internal.message']"
+    name="managedName">AFollestad.MaterialDialogs.Internal.Message</attr>
+  <attr path="/api/package[@name='com.afollestad.materialdialogs.utils']"
+    name="managedName">AFollestad.MaterialDialogs.Utils</attr>
+    <attr path="/api/package[@name='com.afollestad.materialdialogs.message']"
+    name="managedName">AFollestad.MaterialDialogs.Message</attr>
+      <attr path="/api/package[@name='com.afollestad.materialdialogs.list']"
+    name="managedName">AFollestad.MaterialDialogs.List</attr>
+     <attr path="/api/package[@name='com.afollestad.materialdialogs.internal.rtl']"
+    name="managedName">AFollestad.MaterialDialogs.Internal.Rtl</attr>
+
+  <attr path="/api/package[@name='com.afollestad.materialdialogs.internal.main']/class[@name='DialogLayout']/method[@name='getLayoutMode' and count(parameter)=0]" 
+  name="managedName">DialogLayoutMode</attr>
+
+    <remove-node path="/api/package[@name='com.afollestad.materialdialogs.internal.main']/class[@name='DialogScrollView']"/>
+    <remove-node path="/api/package[@name='com.afollestad.materialdialogs']/class[@name='MaterialDialogKt']"/>
+    <!--
+  <attr path="/api/package[@name='com.afollestad.materialdialogs.internal.main']/class[@name='DialogLayout']/method[@name='getLayoutMode' and count(parameter)=0]" 
+    name="managedReturn">Android.Views.ViewLayoutMode</attr>
+  <remove-node path="/api/package[@name='com.afollestad.materialdialogs.internal.main']/class[@name='DialogScrollView']/method[@name='getRootView' and count(parameter)=0]"/>-->
+</metadata>

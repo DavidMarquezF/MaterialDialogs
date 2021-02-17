@@ -4,6 +4,7 @@ using Android.Text;
 using Java.Lang;
 using Kotlin.Jvm.Functions;
 using System;
+using Utils;
 
 namespace AFollestad.MaterialDialogs.Input
 {
@@ -45,21 +46,6 @@ namespace AFollestad.MaterialDialogs.Input
         const bool DEFAULT_ALLOW_EMPTY = false;
         const IFunction2 DEFAULT_INPUT_CALLBACK = null;
 
-        public class Function2Impl<T, K> : Java.Lang.Object, IFunction2 where T : class, IJavaObject where K : class, IJavaObject
-        {
-            private readonly Action<T, K> OnInvoked;
-
-            public Function2Impl(Action<T, K> onInvoked)
-            {
-                this.OnInvoked = onInvoked;
-            }
-
-            public Java.Lang.Object Invoke(Java.Lang.Object p0, Java.Lang.Object p1)
-            {
-                OnInvoked?.Invoke(p0.JavaCast<T>(), p1.JavaCast<K>());
-                return null;
-            }
-        }
         public static MaterialDialog Input(this MaterialDialog dialog, Action<MaterialDialog, ICharSequence> callback)
         {
             return DialogInputExtKt.Input(dialog, DEFAULT_HINT, DEFAULT_HINT_RES, DEFAULT_PREFILL, DEFAULT_PREFILL_RES, (int)DEFAULT_INPUT_TYPE, DEFAULT_MAX_LENGTH, DEFAULT_WAIT_FOR_POSITIVE_BUTTON, DEFAULT_ALLOW_EMPTY, new Function2Impl<MaterialDialog, ICharSequence>(callback));

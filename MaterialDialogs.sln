@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialDialogs.Core", "Mat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialDialogs.Input", "MaterialDialogs.Input\MaterialDialogs.Input.csproj", "{38488D03-FB77-417D-89AA-F568B1910740}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{E51B4692-9E38-4205-ACBD-3776D3B770EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{38488D03-FB77-417D-89AA-F568B1910740}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38488D03-FB77-417D-89AA-F568B1910740}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38488D03-FB77-417D-89AA-F568B1910740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E51B4692-9E38-4205-ACBD-3776D3B770EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E51B4692-9E38-4205-ACBD-3776D3B770EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E51B4692-9E38-4205-ACBD-3776D3B770EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E51B4692-9E38-4205-ACBD-3776D3B770EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

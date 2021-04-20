@@ -14,4 +14,5 @@ name="managedName">AFollestad.MaterialDialogs.Color.Utils</attr>
   <attr path="/api/package[@name='com.afollestad.materialdialogs.color.view']"
 name="managedName">AFollestad.MaterialDialogs.Color.View</attr>
   <remove-node path="/api/package[@name='com.afollestad.materialdialogs.color']/class[@name='ColorGridAdapter']"/>
+  <attr path="/api/package[@name='com.afollestad.materialdialogs.color']/class[@name='DialogColorChooserExtKt']" name="visibility">internal</attr>
 </metadata>

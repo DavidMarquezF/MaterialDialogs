@@ -4,11 +4,11 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using MaterialDialogs.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Utils;
 
 namespace AFollestad.MaterialDialogs
 {
@@ -17,6 +17,7 @@ namespace AFollestad.MaterialDialogs
     {
         public MaterialDialog(Context windowContext): this(windowContext, DEFAULT_BEHAVIOR)
         {
+            
         }
 
         public MaterialDialog Title( string title)

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>MaterialDialogs.Core</id>
+    <version>1.0.1</version>
+    <title>MaterialDialogs Core</title>
+    <authors>David Márquez</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/DavidMarquezF/MaterialDialogs</projectUrl>
+    <icon>icons\material_dialog_icon.png</icon>
+    <description>Afollestad Material Dialog Bindings</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>Material Dialogs</tags>
+    <dependencies>
+      <group targetFramework="MonoAndroid10.0">
+        <dependency id="Xamarin.Kotlin.StdLib" version="1.4.2" include="All" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\icons\material_dialog_icon.png" target="icons\" />
+  </files>
+</package>

@@ -3,8 +3,8 @@ using Android.Runtime;
 using Android.Text;
 using Java.Lang;
 using Kotlin.Jvm.Functions;
+using MaterialDialogs.Utils;
 using System;
-using Utils;
 
 namespace AFollestad.MaterialDialogs.Input
 {

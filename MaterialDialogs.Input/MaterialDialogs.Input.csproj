@@ -43,7 +43,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Additions\DialogExt.cs" />
+    <Compile Include="Additions\DialogInputExt.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -57,16 +57,9 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MaterialDialogs.Core\MaterialDialogs.Core.csproj">
-      <Project>{5157f46f-43db-454f-9d85-193180580cad}</Project>
-      <Name>MaterialDialogs.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Utils\Utils.csproj">
-      <Project>{e51b4692-9e38-4205-acbd-3776d3b770ea}</Project>
-      <Name>Utils</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
+    <PackageReference Include="MaterialDialogs.Core">
+      <Version>1.0.1</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Google.Android.Material">
       <Version>1.2.1.1</Version>
     </PackageReference>
